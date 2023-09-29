@@ -1,5 +1,26 @@
 # vercel
 
+## 32.4.0
+
+### Minor Changes
+
+- Restore unsetting teamId for non-team accounts ([#10612](https://github.com/vercel/vercel/pull/10612))
+
+### Patch Changes
+
+- remove unused source map pkg ([#10577](https://github.com/vercel/vercel/pull/10577))
+
+- disable source map for prod build ([#10575](https://github.com/vercel/vercel/pull/10575))
+
+- Better rendering upon authentication error in `vc cert ls` ([#10551](https://github.com/vercel/vercel/pull/10551))
+
+- Updated dependencies [[`ea5bc8806`](https://github.com/vercel/vercel/commit/ea5bc8806276abf5ba14bdb4a966267497e5d14d), [`a4996e1c5`](https://github.com/vercel/vercel/commit/a4996e1c5a7e6986d5410b662014dc584c0f7c54), [`2f5b0aeeb`](https://github.com/vercel/vercel/commit/2f5b0aeeb183ed3ea8cbc68cb3bc3c949c486ada)]:
+  - @vercel/next@4.0.9
+  - @vercel/go@3.0.3
+  - @vercel/build-utils@7.2.2
+  - @vercel/node@3.0.7
+  - @vercel/static-build@2.0.8
+
 ## 32.3.1
 
 ### Patch Changes

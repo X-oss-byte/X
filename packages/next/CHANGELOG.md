@@ -1,5 +1,11 @@
 # @vercel/next
 
+## 4.0.9
+
+### Patch Changes
+
+- Fix the instrumentation hook on Next.js Edge Functions ([#10608](https://github.com/vercel/vercel/pull/10608))
+
 ## 4.0.8
 
 ### Patch Changes
