@@ -443,6 +443,7 @@ async function doBuild(
     );
 
     delete process.env.VERCEL_ANALYTICS_ID;
+    await fs.writeFile(join(outputDir, '.use-speed-insights'), '');
   }
 
   // Write the `detectedBuilders` result to output dir
